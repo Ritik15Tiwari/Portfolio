@@ -7,9 +7,17 @@
   height: 100dvh;
   min-height: 500px;
 
-  .hero {
+  /* .hero {
     max-width: 200px;
+  } */
+
+  .hero {
+    width: 460px; /* Adjust the size as needed */
+    height: 400px; /* Ensure width and height are equal */
+    border-radius: 50%; /* Makes the image a circle */
+    object-fit: cover;  /* Ensures the image is properly cropped inside the circle */
   }
+  
 
   span {
     display: flex;
