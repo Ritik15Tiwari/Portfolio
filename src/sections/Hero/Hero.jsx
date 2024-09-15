@@ -8,6 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
+// eslint-disable-next-line no-unused-vars
 import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
@@ -42,10 +43,10 @@ function Hero() {
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
+          <a href="https://x.com/RitikTiwar83348" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/Ritik15Tiwari" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
           <a href="https://www.linkedin.com/in/ritik-tiwari-/" target="_blank">
@@ -56,7 +57,7 @@ function Hero() {
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>
-        <a href={CV} download>
+        <a href="/src/assets/Ritik_Resume (2).pdf">
           <button className="hover">Resume</button>
         </a>
       </div>
